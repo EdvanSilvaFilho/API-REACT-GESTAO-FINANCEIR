@@ -1,0 +1,16 @@
+header.container-header {
+  width: 100%;
+  height: 118px;
+
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+  font-family: 'rubik', sans-serif;
+}
+
+div .logo-name {
+  display: flex;
+  margin-left: 104px;
+  gap: 14px;
+}

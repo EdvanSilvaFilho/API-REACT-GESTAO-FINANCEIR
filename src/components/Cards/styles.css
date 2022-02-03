@@ -1,0 +1,21 @@
+.cards {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 25px;
+  max-width: 100%;
+
+  padding: 14px;
+  gap: 15px;
+
+  background: #fafafa;
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+
+  cursor: pointer;
+}
+
+.cards span {
+  text-align: center;
+}

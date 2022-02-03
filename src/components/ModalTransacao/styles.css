@@ -1,0 +1,131 @@
+.all-container-modal {
+  background: rgba(61, 61, 61, 0.48);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.modal-container {
+  width: 474px;
+  height: 620px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  background: #ffffff;
+  border-radius: 20px;
+
+  font-family: Rubik;
+}
+
+.container-titulo-and-img-fechar-modal {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container-titulo-and-img-fechar-modal img {
+  cursor: pointer;
+}
+
+.btns-credito-debito {
+  display: flex;
+  justify-content: center;
+}
+
+.btns-credito-debito button {
+  width: 186px;
+  height: 44px;
+  cursor: pointer;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+#credit-button {
+  border-radius: 10px 0px 0px 10px;
+}
+
+#debit-button {
+  border-radius: 0px 10px 10px 0px;
+}
+
+.cor-btn-credit {
+  background: linear-gradient(91.26deg, #05ede3 0%, #3a9ff1 97.77%);
+}
+
+.cor-btn-debit {
+  background: linear-gradient(91.66deg, #fa8c10 0%, #ff576b 90.32%);
+}
+
+.cor-cinza {
+  background: #b9b9b9;
+}
+
+.formulario-adicionar-transacao {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.formulario-adicionar-transacao label {
+  margin-bottom: 8px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+
+  color: #484848;
+}
+
+.formulario-adicionar-transacao input {
+  width: 400px;
+  height: 38px;
+
+  margin-bottom: 20px;
+
+  padding: 0 10px;
+
+  background: #ffffff;
+  border: 1px solid #555555;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.formulario-adicionar-transacao button {
+  all: unset;
+  width: 150px;
+  height: 30px;
+
+  align-self: center;
+
+  background: #645ffb;
+
+  border-radius: 5px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 10px;
+  text-align: center;
+
+  color: #ffffff;
+
+  cursor: pointer;
+}

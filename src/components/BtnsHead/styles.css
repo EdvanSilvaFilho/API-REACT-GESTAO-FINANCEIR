@@ -1,0 +1,22 @@
+.table-head .btns-head {
+  display: flex;
+  justify-content: space-evenly;
+  width: 842px;
+}
+
+.table-head .btns-head button {
+  all: unset;
+  display: flex;
+  justify-content: flex-start;
+  width: 130px;
+  /* margin: 0 25px; */
+  cursor: pointer;
+}
+
+.btns-head #date,
+#week-day,
+#value {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
